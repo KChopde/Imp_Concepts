@@ -150,7 +150,7 @@ class StudentDiscount implements Discount {
 
 Existing classes do not need to be modified.
 
-### Interview Explanation
+### Explanation
 
 **OCP means existing code should remain stable while new behavior is added through extension, usually using interfaces, inheritance, composition, or polymorphism.**
 
@@ -228,7 +228,7 @@ class Penguin implements Bird {
 
 Now the hierarchy correctly represents the behavior of each type.
 
-### Interview Explanation
+### Explanation
 
 **LSP means a subclass should be usable wherever its parent type is expected without changing the correctness of the program.**
 
@@ -342,7 +342,7 @@ class Robot implements Workable {
 
 Each class implements only what it actually needs.
 
-### Interview Explanation
+### Explanation
 
 **ISP means prefer multiple small, specific interfaces instead of one large general-purpose interface.**
 
@@ -460,7 +460,7 @@ UserService service =
 
 `UserService` does not need to change.
 
-### Interview Explanation
+###  Explanation
 
 **DIP means business logic should depend on abstractions such as interfaces instead of directly depending on concrete implementations.**
 
@@ -504,7 +504,7 @@ D → Depend on interfaces, not implementations
 
 ---
 
-# Common Interview Questions
+# Common  Questions
 
 ## What is SOLID?
 
@@ -689,7 +689,7 @@ The business logic depends on an abstraction.
 
 ---
 
-# Interview Cheat Sheet
+#  Cheat Sheet
 
 ```text
 S — Single Responsibility
@@ -711,9 +711,6 @@ D — Dependency Inversion
 
 ---
 
-# 30-Second Interview Answer
-
-If an interviewer asks:
 
 **"What are SOLID principles?"**
 
@@ -723,7 +720,7 @@ You can answer:
 
 ---
 
-# Important Interview Point
+# Important Point
 
 SOLID does **not** mean that every program must contain many interfaces and classes.
 
